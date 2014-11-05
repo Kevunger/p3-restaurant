@@ -8,6 +8,21 @@ section {
 	margin: 20px 0;
 }
 
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+}
+
+h3 {
+	font-family: 'Josefin Slab', serif;
+	font-weight: 600;
+}
+
+h4,
+p {
+	font-family: 'Josefin Slab', serif;
+}
+
 .color-1,
 .color-2,
 .color-3,
@@ -24,6 +39,41 @@ section {
 	width: 50px;
 }
 
+.color-1 {
+	background-color: #A3A3A3;
+}
+
+.color-2 {
+	background-color: #13BFB4;
+}
+
+.color-3 {
+	background-color: red;
+}
+
+.imagery-1 {
+	background: url(../img/Sushi-Maru-Logo.png) no-repeat;
+}
+
+.imagery-2 {
+	background: url(../img/sushi.png) no-repeat;
+}
+
+.imagery-3 {
+	background: url(../img/sushi2.png) no-repeat;
+}
+
+.pattern-1 {
+	background: url(../img/texture1.png);
+}
+
+.pattern-2 {
+	background: url(../img/texture2.png);
+}
+
+.pattern-3 {
+	background: url(../img/texture3.png);
+}
 
 /* Show Grid */
 .showgrid {
