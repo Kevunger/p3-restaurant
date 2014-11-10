@@ -7,109 +7,112 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>P3: Prototype</title>
+  <title>P3: Restaurant</title>
 
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/semantic.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Josefin+Slab:400,600' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
   
-  <h1>Sushi Maru</h1>
-    
+  <div class="Header">
+    <div class="Logo"></div>
+    <h5>River Park Square / 808 West Main Ave. / Suite #105</h5>
+  </div>
 
-  <!-- Contact Info -->
-  <h2>Contact</h2>
-
-  <ul>
-    <li>Address Sushi Maru</li>
-    <li>River Park Square</li>
-    <li>808 West Main Avenue Suite #105</li>
-    <li>Spokane, WA 99201</li>
-    <li><a href="tel:509-455-3900"></a>509-455-3900</li>
-    <li><a href="mailto:maruspokane@gmail.com">Email</a></li>
+  <ul class="navbar">
+    <a class="bar" href="#history"><li><i class="question icon"></i>About Us</li></a>
+    <a class="bar" href="#contact"><li><i class="phone icon"></i>Contact</li>
+    <a class="bar" href="#menu"><li><i class="food icon"></i>Menu</li></a>
+    <a class="bar" href="#map"><li><i class="location icon"></i>Locate</li></a>
+    <a class="bar" href="#specials"><li><i class="empty star icon"></i> Specials</li></a>
   </ul>
+
+  <!-- History -->
+
+  <div class="about"><a name="history"><h1>A little Sushi Maru history </h1></a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <!-- Menu -->
+  
+  <div class="menu">
+    <a name="menu"><h1 class="title">Menu</h1></a>
+    <p><i class="warning icon"></i>Raw Meat / <i class="leaf icon"></i>Vegetarian / <i class="fire icon"></i>Spicy</p>
+    <p>Yellow: $1.50 --- Blue: $2.25 --- Red: $2.75 --- Green: $3.50</p>
+    <div class="yellow">
+      <h3>Big Tempura Maki</h3>
+      <h6>Shrimp, crab stick, chef’s choice of fish and avocado batter fried together and wrapped in rice and nori</h6>
+      <h3>Spiral Ecstacy Roll</h3>
+      <h6>Shrimp, crab stick and avocado rolled with salmon, yellowtail and tuna</h6>
+    </div>
+    <div class="blue">
+      <h3>Kanki By The Sea</h3>
+      <h6>Eel and avocado rolled in crab stick and tobiko, served on a bed of seaweed salad with a cream sauce</h6>
+      <h3>Banzai Roll</h3>
+      <h6>Salmon, eel, octopus and avocado</h6>
+    </div>
+    <div class="red">
+      <h3>Scallop Banzai Roll</h3>
+      <h6>Salmon, eel, scallops and avocado</h6>
+      <h3>Tuna Rio</h3>
+      <h6>Shrimp tempura, cream cheese, and spicy mayo in a reverse roll with tuna, baked and topped with hot sauce aand jalapenos</h6>
+    </div>
+    <div class="green">
+      <h3>Sheila Maki</h3>
+      <h6>Butterfish, crab stick, avocado, masago and spicy mayo in a reverse roll layered with tempura drops and seasoned sweet soy</h6>
+      <h3>Volcano Roll</h3>
+      <h6>Crab stick, avocado and cream cheese rolled and covered with a unique spicy
+      lava sauce</h6>
+    </div>
+    <div class="beverages">
+      <h3>Beverages</h3>
+      <ul>
+        <li>Sake</li>
+        <li>Sapporo</li>
+        <li>Pepsi</li>
+        <li>Domestic Beers</li>
+        <li>Lemonade</li>
+        <li>Coffee</li>
+      </ul>
+    </div>
+  </div>
+
+ 
+  <!-- Contact Info -->
+  <div class="Contact">
+    <a name="contact"><h1>Contact Us</h1></a>
+    <ul>
+      <a href="tel:509-455-3900"><li class="button">509-455-3900</li></a>
+      <a href="mailto:maruspokane@gmail.com"><li class="button">Email</li></a>
+      <li>Address Sushi Maru</li></a>
+      <li>River Park Square</li>
+      <li>808 West Main Avenue Suite #105</li>
+      <li>Spokane, WA 99201</li>
+    </ul>
+  </div>
 
 
   <!-- Map -->
-  <h2>Map</h2>
 
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10749.040677192921!2d-117.423774!3d47.659942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4100979c0cf5d029!2sSushi+Maru!5e0!3m2!1sen!2sus!4v1415213745607" width="600" height="450" frameborder="0" style="border:0"></iframe>
+  <div class="map">
+    <a name="map"><h1>Map</h2></a>
 
-  <!-- Menu -->
-  <p>Prices are organized by plate color, e.g. a yellow plate is $1.50. </p>
-  
-  <ul>
-     <li>$1.50 - Yellow</li>
-     <li>$2.25 - Light Blue</li>
-     <li>$2.75 - Red</li>
-     <li>$3.50 - Green</li>
-    </ul>
-  
-    <h3>Spiral Ecstasy Roll</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10749.040677192921!2d-117.423774!3d47.659942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4100979c0cf5d029!2sSushi+Maru!5e0!3m2!1sen!2sus!4v1415213745607" width="400" height="400" frameborder="0" style="border:0"></iframe>
+  </div>
 
-    <ul>
-      <li>Yellow Plate</li>
-      <li>Contains Raw Fish </li>
-      <li>Shrimp, crab stick and avocado rolled with salmon, yellowtail and tuna</li>
-    </ul>
-
-    <h3>Big Tempura Maki</h3>
-
-    <ul>
-      <li>Yellow Plate </li>
-      <li>Shrimp, crab stick, chef’s choice of fish and avocado batter fried together and wrapped in rice and nori</li>
-    </ul>
-
-    <h3>Kanki By The Sea</h3>
-
-    <ul>
-      <li>Light Blue Plate </li>
-      <li>Eel and avocado rolled in crab stick and tobiko, served on a bed of seaweed salad with a cream sauce</li>
-    </ul>
-
-    <h3>Banzai Roll</h3>
-
-    <ul>
-      <li>Light Blue Plate </li>
-      <li>Contains Raw Fish </li>
-      <li>Salmon, eel, octopus and avocado</li>
-    </ul>
-
-    <h3>Scallop Banzai Roll</h3>
-
-    <ul>
-      <li>Red Plate</li>
-      <li>Contains Raw Fish </li>
-      <li>Salmon, eel, scallops and avocado</li>
-    </ul>
-
-    <h3>Tuna Rio</h3>
-
-    <ul>
-      <li>Red Plate</li>
-      <li>Spicy </li>
-      <li>Shrimp tempura, cream cheese, and spicy mayo in a reverse roll with tuna, baked and topped with hot sauce aand jalapenos</li>
-    </ul>
-
-    <h3>Sheila Maki</h3>
-
-    <ul>
-      <li>Green Plate</li>
-      <li>Spicy</li>
-      <li>Butterfish, crab stick, avocado, masago and spicy mayo in a reverse roll layered with tempura drops and seasoned sweet soy</li>
-    </ul>
-
-    <h3>Volcano Roll</h3>
-
-    <ul>
-      <li>Green Plate</li>
-      <li>Spicy </li>
-      <li>Crab stick, avocado and cream cheese rolled and covered with a unique spicy
-      lava sauce</li>
-    </ul>
 
 
   <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
